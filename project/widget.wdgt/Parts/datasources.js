@@ -5,5 +5,6 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodeDataSources = {
-    "dataSource": { "Class": "DC.AjaxController", "propertyValues": { "url": "https://api.bitcoinaverage.com/ticker/USD", "dataModel": { "cacheSample": true, "uuid": "2DEEF9E0-0A1C-47CA-AC13-FB2CA1C59EBA", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "24h_avg": 1, "ask": 1, "bid": 1, "last": 1, "timestamp": "", "total_vol": 1 } }, "parameters": {} } }
+    "dataSource": { "Class": "DC.AjaxController", "propertyValues": { "url": "https://api.bitcoinaverage.com/ticker/USD?", "dataModel": { "cacheSample": true, "uuid": "1ED32160-D5E9-47A8-96E0-AC127F05CA30", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "24h_avg": 1, "ask": 1, "bid": 1, "last": 1, "timestamp": "", "total_vol": 1 } }, "parameters": { "update": "1" } } }
 };
+

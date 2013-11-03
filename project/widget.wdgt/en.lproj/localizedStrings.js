@@ -9,3 +9,6 @@ var localizedStrings = {
     "Hello, World!": "Bitcoin Exchange Rate"
 };
 
+
+
+

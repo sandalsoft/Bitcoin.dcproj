@@ -5,9 +5,21 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodePartSpecs = {
+    "ask": { "text": "ask", "view": "DC.Text" },
+    "avg_24hr": { "propertyValues": { "enabledBinding": { "keypath": "dataSource.content.24h_avg" }, "textBinding": { "keypath": "dataSource.content.24h_avg" }, "visibleBinding": { "keypath": "dataSource.content.24h_avg" } }, "text": "$0.00", "view": "DC.Text" },
+    "bid": { "text": "bid", "view": "DC.Text" },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "helloText": { "text": "Hello, World!", "view": "DC.Text" },
+    "image": { "view": "DC.ImageLayout" },
     "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
-    "text": { "propertyValues": { "enabledBinding": { "keypath": "dataSource.content.24h_avg" }, "textBinding": { "keypath": "dataSource.content.24h_avg" }, "visibleBinding": { "keypath": "dataSource.content.24h_avg" } }, "text": "Text", "view": "DC.Text" }
+    "last": { "text": "last", "view": "DC.Text" },
+    "text": { "propertyValues": { "enabledBinding": { "keypath": "dataSource.content.bid" }, "textBinding": { "keypath": "dataSource.content.bid" }, "visibleBinding": { "keypath": "dataSource.content.bid" } }, "text": "-", "view": "DC.Text" },
+    "text2": { "propertyValues": { "enabledBinding": { "keypath": "dataSource.content.ask" }, "textBinding": { "keypath": "dataSource.content.ask" }, "visibleBinding": { "keypath": "dataSource.content.ask" } }, "text": "-", "view": "DC.Text" },
+    "text4": { "propertyValues": { "enabledBinding": { "keypath": "dataSource.content.total_vol" }, "textBinding": { "keypath": "dataSource.content.total_vol" }, "visibleBinding": { "keypath": "dataSource.content.total_vol" } }, "text": "-", "view": "DC.Text" },
+    "text6": { "propertyValues": { "enabledBinding": { "keypath": "dataSource.content.last" }, "textBinding": { "keypath": "dataSource.content.last" }, "visibleBinding": { "keypath": "dataSource.content.last" } }, "text": "-", "view": "DC.Text" },
+    "timestamp": { "propertyValues": { "enabledBinding": { "keypath": "dataSource.content.timestamp" }, "textBinding": { "keypath": "dataSource.content.timestamp" }, "visibleBinding": { "keypath": "dataSource.content.timestamp" } }, "text": "-", "view": "DC.Text" },
+    "vol": { "text": "vol", "view": "DC.Text" }
 };
+
+
 
